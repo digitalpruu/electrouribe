@@ -1,9 +1,9 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "Electrouribe";
+const email = "jairour.09@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    `¡Hola! Estoy interesado en los servicios de reparación de ${title} y me gustaría recibir más información. ¡Espero su respuesta!`
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "3153455133";
 const textos = {
     index: {
         title: title,
@@ -12,25 +12,28 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "Electrouribe es tu solución confiable para el arreglo de electrodomésticos. Desde nuestra fundación, nos hemos especializado en devolverle la vida a tus\n" +
+            "aparatos, asegurando que funcionen como nuevos.\n" +
+            "En Electrouribe, comprendemos la importancia de mantener tus electrodomésticos en perfecto estado. Nuestro equipo de expertos está capacitado para\n" +
+            "diagnosticar y reparar una amplia gama de problemas, utilizando las herramientas y técnicas más avanzadas.\n" +
+            "Además de ofrecer servicios de reparación, en Electrouribe nos enfocamos en brindar un servicio al cliente excepcional. Nos esforzamos por realizar cada reparación de manera rápida y eficiente, para que puedas volver a disfrutar de la funcionalidad de tus aparatos en el menor tiempo posible.\n" +
+            "Confía en Electrouribe para todos tus arreglos de electrodomésticos. ¡Somos los expertos que necesitas para que todo funcione como nuevo!"
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "Electrouribe",
+            p2: "Somos los expertos que necesitas para que todo funcione como nuevo.",
         },
         address: "Dirección del emprendimiento",
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
+        facebook: "https://www.facebook.com/profile.php?id=61565635710639&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/",
-        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
-
 };
 export default textos;
